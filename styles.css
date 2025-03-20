@@ -24,6 +24,7 @@ body {
     background-color: var(--dark-bg);
     color: var(--text-primary);
     overflow-x: hidden;
+    padding-top: 80px;
 }
 
 /* typography */
