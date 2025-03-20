@@ -24,7 +24,6 @@ body {
     background-color: var(--dark-bg);
     color: var(--text-primary);
     overflow-x: hidden;
-    padding-top: 80px;
 }
 
 /* typography */
@@ -98,7 +97,7 @@ section {
 /* header + nav */
 header {
     position: fixed;
-    top: 40px;
+    top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
