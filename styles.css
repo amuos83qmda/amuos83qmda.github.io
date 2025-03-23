@@ -7,6 +7,7 @@
     --red-accent-dark: #cc2020;
     --text-primary: #ffffff;
     --text-secondary: #b3b3b3;
+    --text-smoke: #b58b8b;
 }
 
 * {
@@ -545,7 +546,7 @@ nav a {
 }
 
 .gig-smokestatus {
-    color: var(--text-secondary);
+    color: var(--text-smoke);
     display: flex;
     align-items: center;
     gap: 0.5rem;
