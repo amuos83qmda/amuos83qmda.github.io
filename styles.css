@@ -466,6 +466,7 @@ nav a {
     font-size: 0.9rem;
     color: var(--red-accent);
     margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 /* gigs */
