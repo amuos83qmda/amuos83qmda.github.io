@@ -544,6 +544,13 @@ nav a {
     gap: 0.5rem;
 }
 
+.gig-smokestatus {
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 .gig-time {
     color: var(--text-secondary);
     display: flex;
