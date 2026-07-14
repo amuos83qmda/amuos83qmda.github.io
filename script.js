@@ -191,4 +191,14 @@ function updateLastUpdatedText() {
 document.addEventListener("DOMContentLoaded", () => {
     renderGigs();
     updateLastUpdatedText();
+
+    // set delays for the gig cards now that they actually exist in the dom
+    document.querySelectorAll('.gig-card').forEach((card, index) => {
+        card.style.transitionDelay = `${index * 0.05}s`;
+    });
+
+    // observe the gig cards so they get the visible class when you scroll
+    document.querySelectorAll('.gig-card').forEach(el => {
+        observer.observe(el);
+    });
 });
