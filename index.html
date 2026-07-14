@@ -126,102 +126,9 @@
         <section id="gigs">
             <div class="container">
                 <h2>Upcoming Gigs</h2>
-                <p>Last Updated: 7/14</p>
-                <div class="gigs-list">
-                    <div class="gig-card">
-                        <div class="gig-date">
-                            <div class="gig-day">29</div>
-                            <div class="gig-month">Jul</div>
-                        </div>
-                        <div class="gig-info">
-                            <h3>Elkhart ArtWalk</h3>
-                            <div class="gig-location">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <span>Elkhart, IN</span>
-                            </div>
-                            <div class="gig-time">
-                                <i class="far fa-clock"></i>
-                                <span>7:30 PM - 9 PM</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gig-card">
-                        <div class="gig-date">
-                            <div class="gig-day">1</div>
-                            <div class="gig-month">Aug</div>
-                        </div>
-                        <div class="gig-info">
-                            <h3>Louie's Bar & Grill</h3>
-                            <div class="gig-location">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <span>Elkhart, IN</span>
-                            </div>
-                            <div class="gig-time">
-                                <i class="far fa-clock"></i>
-                                <span>11 PM - 3 AM</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gig-card">
-                        <div class="gig-date">
-                            <div class="gig-day">22</div>
-                            <div class="gig-month">Aug</div>
-                        </div>
-                        <div class="gig-info">
-                            <h3>Journey's End</h3>
-                            <div class="gig-location">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <span>Bourbon, IN</span>
-                            </div>
-                            <div class="gig-time">
-                                <i class="far fa-clock"></i>
-                                <span>8PM - 12AM</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gig-card">
-                        <div class="gig-date">
-                            <div class="gig-day">8</div>
-                            <div class="gig-month">Oct</div>
-                        </div>
-                        <div class="gig-info">
-                            <h3>Private Event</h3>
-                        </div>
-                    </div>
-                    <div class="gig-card">
-                        <div class="gig-date">
-                            <div class="gig-day">31</div>
-                            <div class="gig-month">Oct</div>
-                        </div>
-                        <div class="gig-info">
-                            <h3>The Legion</h3>
-                            <div class="gig-location">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <span>Bourbon, IN</span>
-                            </div>
-                            <div class="gig-time">
-                                <i class="far fa-clock"></i>
-                                <span>8PM - 12AM</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gig-card">
-                        <div class="gig-date">
-                            <div class="gig-day">31</div>
-                            <div class="gig-month">Dec</div>
-                        </div>
-                        <div class="gig-info">
-                            <h3>Rex's Rendezvous</h3>
-                            <div class="gig-location">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <span>Warsaw, IN</span>
-                            </div>
-                            <div class="gig-time">
-                                <i class="far fa-clock"></i>
-                                <span>N/A</span>
-                            </div>
-                        </div>
-                    </div>
+                <p id="gigs-last-updated">Last Updated: 7/14</p>
+                <div class="gigs-list" id="gigs-list">
+                    <!-- gigs hopefully render automatically. crossing fingers -->
                 </div>
             </div>
         </section>
@@ -233,7 +140,7 @@
                 <div class="music-content">
                     <div class="music-text">
                         <p>We are a songwriting machine, and actively working on new music! Our music blends pop, soul, and rock and roll into an energetic mix.</p>
-                        <p>We just released our first album on your favorite streaming platform! Check out some of the top songs.</p>
+                        <p>We just released our first album on your favorite streaming platforms! Check out some of the top songs.</p>
                     </div>
                     <div class="spotify-embeds">
                         <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/161nJUFfYi1BYhGIK7rTxk?utm_source=generator&si=bb39261f43524738" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -415,6 +322,7 @@
                 </div>
                 <p class="copyright">&copy; 2025 The SuperKools. All rights reserved.</p>
             </div>
+            <script src="gigs-data.js"></script>
             <script src="script.js"></script>
     </body>
 </html>
