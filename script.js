@@ -88,14 +88,14 @@ const gigsData = [
         month: "Aug",
         title: "Louie's Bar & Grill",
         location: "Syracuse, IN",
-        time: "11 PM - 3 AM"
+        time: "7 PM - 11 PM"
     },
     {
         day: 22,
         month: "Aug",
         title: "Journey's End",
         location: "Bourbon, IN",
-        time: "8PM - 12AM"
+        time: "8 PM - 12 AM"
     },
     {
         day: 8,
@@ -107,14 +107,14 @@ const gigsData = [
         month: "Oct",
         title: "The Legion",
         location: "Bourbon, IN",
-        time: "8PM - 12AM"
+        time: "8 PM - 12 AM"
     },
     {
         day: 31,
         month: "Dec",
         title: "Rex's Rendezvous",
         location: "Warsaw, IN",
-        time: "N/A"
+        time: "9 PM - 1 AM"
     }
 ];
 
